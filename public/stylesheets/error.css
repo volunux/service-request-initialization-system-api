@@ -1,0 +1,112 @@
+@font-face {
+
+font-family: 'RobotoRegular';
+src : url(../../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+
+font-family: 'RobotoBold';
+src : url(../../fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+
+font-family: 'Libre';
+src : url(../../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf) format('truetype');
+}
+
+* {
+
+	font-family : 'RobotoRegular';
+	font-size : 100%;
+	margin : 0;
+	border : 0;
+	padding : 0;
+	box-sizing : border-box;
+	text-decoration : none;
+	border-collapse : collapse;
+	background-color : transparent;
+}
+
+p , i , li , td , th , span , label , input , textarea , select {
+
+	font-size : 13px;
+}
+
+b {
+
+	font-family : 'RobotoBold';
+}
+
+a {
+
+	text-align : center;
+}
+
+a , b , button {
+
+	font-size : 11px;
+}
+
+a , b { 
+
+	text-align : center;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+
+	font-family : 'Libre';
+}
+
+h1 {
+
+	font-size : 18px;
+}
+
+h2 {
+
+	font-size : 16px;
+}
+
+h3 {
+
+	font-size : 14px;
+}
+
+#container {
+
+	width : 96%;
+	margin : 0px auto;
+}
+
+#logo {
+
+	width : 100%;	
+	margin : 0px auto 10px;
+	min-width : 120px;
+	max-width : 120px;
+}
+
+#logo img {
+
+	width : 120px;
+	height : 120px;
+}
+
+#main {
+
+	padding : 5px;
+}
+
+#main h1 , #main h2 , #main h3 {
+
+	margin : 20px 0px 10px;
+}
+
+#footer p {
+
+	font-size : 12px;
+	text-align : center;
+	margin-top : 80px;
+}

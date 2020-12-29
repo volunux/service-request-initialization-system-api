@@ -1,0 +1,336 @@
+* {
+
+	font-family : cursive;
+	font-size : 11px;
+	font-style : normal;
+	font-weight : normal;
+	box-sizing : border-box;
+	text-decoration : none;	
+	border : 0;
+	padding : 0;
+	margin : 0;
+	color : #000;
+	background-color : #fff;
+}
+
+img {
+
+	max-width : 100%;
+}
+
+a:link , a:visited , a:hover , a:focus {
+
+	color : blue;
+}
+
+.container {
+
+	width : 98%;
+	margin : 2.0em auto;
+	padding : 0.625em;
+	list-style-position : inside;
+}
+
+header .shead , header .phead {
+
+	line-height : 2.0;
+	margin-bottom : 0.875em;
+}
+
+header .phead .nav ul {
+
+	list-style-type: none;
+	text-align : center;
+}
+
+header .phead .nav ul li {
+
+	display : inline-block;
+	margin-right : 2.1875em;
+}
+
+main {
+
+	padding : 1.375em;
+	overflow : hidden;
+	margin-bottom: 1em;
+}
+
+main .pcontent {
+
+	width : 75%;
+	float : left;
+	line-height : 2.0em;
+}
+
+main .psection {
+
+	width : 25%;
+	float : left;
+	line-height : 1.75em;
+}
+
+main .pcontent .tsum {
+
+	float : left;
+	width : 45%;
+	margin-right : 1.25em;
+	margin-bottom : 2.0em;
+}
+
+main .pcontent .tsum .tsumbody {
+
+	margin-top : 0.875em;
+}
+
+main .pcontent .tsum .tsumdet img {
+
+	width : 140px;
+	height : 140px;
+	float : left;
+	margin-right : 1.375em;
+}
+
+main .psection .pgenre, main .psection .pyear {
+
+	margin-bottom : 1.5em;
+}
+
+.alistd {
+
+	width : 150px;
+	float : left;
+	height : 200px;
+	padding : 2%;
+	text-align : center;
+}
+
+.alist img {
+
+	height : 120px;
+	margin-bottom : 0.3125em;
+}
+
+.alistdd {
+
+	width : 80%;
+	display : block;
+	margin : 0px auto;
+}
+
+.glist , .slist {
+
+	padding : 1.3125em;
+}
+
+.glist li , .slist li {
+
+	margin-bottom : 0.5em;
+}
+
+.tdpage {
+
+	width : 80%;
+}
+
+.tdpage .tdimage img {
+
+	height : 400px;
+	width : 300px;
+	display : block;
+	margin : 0px auto;
+}
+
+.tdci {
+
+	width : 100%;
+	padding : 2%;
+	text-align: center;
+}
+
+.tdci img {
+
+	height : 120px;
+	margin-bottom : 0.3125em;
+}
+
+.tdc {
+
+	float : left;
+	width : 20%;
+	display : block;
+	margin : 15px auto;
+}
+
+.tdbodyc ul {
+
+	list-style-type: none;
+}
+
+.tdbodyc li {
+
+	display : inline-block;
+	text-align : center;
+	margin-right : 15px;
+}
+
+.tdbodyc img {
+
+	display : block;
+	height : 120px;
+	width : 120px;
+	margin : 0px auto;
+}
+
+footer {
+
+	clear : both;
+	text-align : center;
+}
+
+footer p {
+
+	margin-bottom : 0.875em;
+}
+}
+
+.treviews {
+
+	margin-top : 40px;
+}
+
+.treviews .treviewsh h5 a {
+
+	float : right;
+} 
+
+.treviews .treviewsbody p span {
+
+	margin-left : 20px;
+}
+
+.treviewsbindividual {
+
+	margin-bottom: 15px;
+}
+
+.tdmenu {
+
+	margin-bottom: 40px;
+}
+
+.tdmenu ul {
+
+	list-style-type: none;
+}
+
+.tdmenu li {
+
+	display : inline-block;
+	margin-right : 4%;
+}
+
+.tpmenu {
+
+	margin-bottom : 15px;
+}
+
+.tpmenu ul {
+
+	list-style-type: none;
+
+}
+
+.tpmenu li {
+
+	display : inline-block;
+	margin-right : 4%;
+}
+
+.tdtrailer video {
+
+	margin : 10px auto;
+}
+
+.tdphotos .tdindividuald img {
+
+	width : 250px;
+	height : 330px;
+}
+
+.tdphotos .tdindividuald {
+
+	margin-right : 5%;
+	float : left;
+}
+
+@media screen and (max-width : 680px) {
+
+	.pcontent {
+
+		margin-bottom : 50px;
+	}
+
+	main .pcontent {
+
+		width : 100%;
+		float: none;
+	}
+
+	main .psection {
+
+		width : 100%;
+	}
+
+	main .pcontent .tsum {
+
+		width : 100%;
+		float : none;
+	}
+
+}
+
+@media screen and (max-width : 360px) {
+
+	main .pcontent .tsum .tsumdet img {
+
+	width : 140px;
+	height : 140px;
+	float : none;
+	display : block;
+	margin : 0px auto;
+}
+
+header .phead .nav ul li {
+
+	display : block;
+	margin : 0 0 0.875em 1.25em;
+}	
+
+header .phead .nav ul {
+
+	text-align : left;
+}	
+
+.tdpage .tdimage img {
+
+	height : 400px;
+	width : 100%;
+	display : block;
+}
+
+.tdbodyc li {
+
+	display : inline-block;
+	text-align : center;
+	width : 100px;
+}
+
+main .pcontent {
+
+	width : 100%;
+	float : none;
+	line-height : 2.0em;
+}
+
+}

@@ -1,0 +1,122 @@
+.course-registration .first {
+
+	float : left;
+	width : 20%;
+	height : 200px;
+	border : 2px solid #f76b83;
+	border-right : 0;
+	border-radius : 6px 0 0 6px;
+	position : relative;
+	background-color : #500d50;
+	color : white;
+	transition-property : background-color;
+	transition-duration : 2s;
+}
+
+.course-registration .first p {
+
+	opacity : 0.5;
+	transition-property : opacity;
+	transition-duration : 2s;
+}
+
+.course-registration .first:hover {
+
+	transition : background-color 0.6s;
+	background-color : purple;
+	opacity : 1;
+	color : white;
+}
+
+.course-registration .course-registration-form {
+
+	float : left;
+	width : 58%;
+	border : 2px solid lightblue;
+	border-radius : 0 0 6px 6px;
+	padding : 10px;
+}
+
+.course-registration .third {
+
+	float : left;
+	width : 20%;
+	height : 200px;
+	border : 2px solid #f76b83;
+	border-left : 0;
+	border-radius : 0 6px 6px 0;
+	position : relative;
+	background-color : #500d50;
+	color : white;
+	transition-property : background-color;
+	transition-duration : 2s;
+}
+
+.course-registration .third p {
+
+	opacity : 0.5;
+	transition-property : opacity;
+	transition-duration : 2s;
+}
+
+.course-registration .third:hover {
+
+	transition : background-color 0.6s;
+	background-color : purple;
+	opacity : 1;
+}
+
+.course-registration .first .linko , .course-registration .third .linko {
+
+	text-align : center;
+	margin-top : 100px;
+}
+
+.course-registration .course-registration-form input , .course-registration .course-registration-form label {
+
+	display : inline-block;
+	margin-bottom : 20px;
+}
+
+.course-registration .course-registration-form input , .course-registration .course-registration-form textarea {
+
+	width : 70%;
+	border : 2px solid #e0f3f9;
+	border-radius : 6px;
+	height : 35px;
+}
+
+.course-registration .course-registration-form label {
+
+	width : 30%;
+}
+
+.course-registration .course-registration-form #message {
+
+	height : 80px;
+	width : 70%;
+	resize : none;
+	display : inline-block;
+	margin-bottom : 20px;
+}
+
+.course-registration .course-registration-form label {
+
+	vertical-align : top;
+}
+
+.course-registration .course-registration-form button {
+
+	float : right;
+	margin-right : 20px;
+	padding : 10px 35px;
+	border-radius : 6px;
+	border : 2px solid #f76b83;
+	background-color : #500d50;
+	color : white;
+}
+
+.course-registration .course-registration-form button:hover {
+	background-color : purple;
+	opacity : 1;
+}

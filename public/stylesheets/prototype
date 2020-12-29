@@ -1,0 +1,56 @@
+* {
+
+	font-family : Arial;
+	font-weight : normal;
+	line-height : 2.0em;
+	font-size : 13.5px;
+}
+
+img {
+
+	width : 150px !important;
+	height : 150px !important;
+}
+
+h1 {
+
+	font-size : 19.2px !important;
+}
+
+h2 , h3 {
+
+	font-size : 15.2px;
+}
+
+b {
+
+	font-weight : bold !important;
+}
+
+.list-photo img {
+
+		width : 150px;
+		height : 150px;
+}
+
+.list-photo-photo {
+
+	float : left;
+	overflow : hidden;
+	margin-right : 1.5em;
+	margin-bottom : 1em;
+}
+
+.photo-photo-detail {
+
+	margin-bottom : 2em;
+}
+
+@media screen and (max-width : 1000px) {
+
+	.list-photo-photo {
+
+		float : none;
+	}
+
+}

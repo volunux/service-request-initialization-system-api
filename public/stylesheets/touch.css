@@ -1,0 +1,171 @@
+* {
+
+	text-decoration : none !important; 
+	line-height : 2.5em;
+	font-size : 1em;
+}
+
+* h1 {
+
+	margin-bottom : 1.5em;
+	font-size : 1.2em;
+}
+
+* p {
+
+	font-size : 0.8em;
+}
+
+* h2 , * h3 , * h4 {
+
+	font-size : 0.95em;
+	font-weight : bold;
+}
+
+h5 , h6 , p , label , select , form , .form-control-sm {
+
+	font-size : 0.75rem;
+}
+
+
+img {
+
+	max-width : 100%;
+	max-height : auto;
+}
+
+textarea {
+
+	resize : none;
+	height : 200px;
+}
+
+.footer {
+
+	clear : both;
+	margin-top : 10rem;
+}
+
+.footer p {
+
+	text-align : center;
+}
+
+.proverb-detail  {
+
+
+	margin-bottom : 40px;
+}
+
+.proverb-detail::after {
+
+	font-weight : bold;
+	font-style : italic;
+}
+
+.form-add div.post {
+
+	height : 300px;
+	width : 80%;
+	border : 1px solid #000;
+}
+
+#reference {
+
+	margin-bottom : 1em;
+}
+
+
+
+.like {
+
+	background-color: transparent;
+	color : gray;
+	border-radius : 8px;
+	padding : 5px 10px;
+	text-align : center;
+	border : 2px solid lightblue;
+	width : 100%;
+
+}
+
+.list-photo img {
+
+		width : 150px;
+		height : 150px;
+}
+
+.ethnic-nationality-art {
+
+	font-family : monospace !important;
+	margin-top : 2em;
+}
+
+.ethnic-nationality-art h2 {
+
+	font-size : 13px;
+	font-weight : normal;
+	font-style : normal;
+}
+
+.ethnic-nationality-art .art-single {
+
+	margin-bottom : 2em;
+}
+
+.art-individual {
+
+	font-family : Arial;
+	line-height : 2.5em;
+	font-size : 1em;
+}
+
+.art-individual h1 {
+
+	margin-bottom : 1.5em;
+	font-size : 1.2em;
+}
+
+.art-individual p {
+
+	font-size : 0.8em;
+}
+
+.art-individual h2 , .art-individual h3 , .art-individual h4 {
+
+	font-size : 0.95em;
+	font-weight : bold;
+}
+
+.list-photo-detail {
+
+	margin-bottom : 2em;
+}
+
+.list-photo-photo {
+
+	float : left;
+	overflow : hidden;
+	margin-right : 1.5em;
+	margin-bottom : 1em;
+}
+
+
+@media screen and (max-width : 620px) {
+
+	.list-photo-photo {
+
+		float : none;
+	}
+
+}
+
+@media screen and (max-width : 1020px) {
+
+	.list-photo-photo {
+
+		float : none;
+	}
+
+}
+

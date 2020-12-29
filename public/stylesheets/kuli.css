@@ -1,0 +1,226 @@
+* {
+
+	margin : 0;
+	padding : 0;
+	font-family : Arial;
+	font-size : 13.5px;
+	text-decoration : none;
+	line-height : 2.5em;
+}
+
+h1 {
+
+	font-size : 18px;
+	font-weight : normal;
+	margin-bottom : 2em;
+}
+
+
+h2 span, h3 span, h4 span, h5 span, h6 span  , h2 a , h3 a , h4 a , h5 a , h6 a , h2 i , h3 i , h4 i , h5 i , h6 i {
+
+		font-weight : bold !important;
+}
+
+h2 {
+
+	font-size : 14px;
+}
+
+h2 , h2 span{
+
+	font-size : 14px !important;
+}
+
+p span {
+
+	font-size : 13.5px !important;
+}
+
+img {
+
+	max-width : 100%;
+	max-height : auto;
+	margin : auto;
+}
+
+a {
+
+	color : #007bff;
+}
+
+u {
+
+	text-decoration: underline;
+}
+
+.container {
+
+	width : 90%;
+	margin : 0px auto;
+	padding : 1%;
+}
+
+.footer {
+
+	clear : both;
+	text-align : center;
+	position : relative;
+	bottom : -150px;
+}
+
+.ethnic-list {
+
+		overflow : hidden;
+}
+
+.ethnic-list ul {
+
+	list-style-type: none;
+}
+
+.ethnic-list ul li {
+
+	display : inline-block;
+}
+
+.ethnic-list .ethnic-list-item {
+
+	float : left;
+	width : 18%;
+	padding : 0.5em;
+}
+
+.list-photo img {
+
+	width : 150px;
+	height : 150px;
+}
+
+.list-photo , .list-posts {
+
+	padding : 1%;
+}
+
+.list-photo-detail {
+
+	float : left;
+	width : 20%;
+	margin : 0 1.5% 2% 0;
+	padding : 1%;
+}
+
+.list-posts-item {
+
+	float : left;
+	width : 45%;
+	margin : 0 1.5% 2% 0;
+	padding : 1%;
+}
+
+.list-photo-photo {
+
+	margin-bottom : 0.5em; 
+}
+
+.photo-detail {
+
+	padding : 1em;
+}
+
+.photo-photo-detail {
+
+	text-align : center;
+	width : 500px;
+	margin : 0px auto;
+}
+
+.art-individual img {
+
+	width : 300px;
+	display : block;
+	height : 400px;
+}
+
+.like {
+
+	background-color: transparent;
+	color : gray;
+	border-radius : 8px;
+	padding : 5px 10px;
+	text-align : center;
+	border : 2px solid lightblue;
+	width : 100%;
+
+}
+
+@media screen and (max-width : 800px) {
+
+	.list-photo-detail {
+
+		width : 45%;
+	}
+
+.ethnic-list .ethnic-list-item {
+
+	float : left;
+	width : 30%;
+}
+
+}
+
+@media screen and (max-width : 540px) {
+
+	.list-photo-detail {
+
+		float : none;
+		width : 100%;
+	}
+
+.ethnic-list .ethnic-list-item {
+
+	float : left;
+	width : 30%;
+}
+
+.list-posts-item {
+
+	float : none;
+	width : 100%;
+}
+
+h1 , h1 span {
+
+	font-weight : bold;
+	margin-bottom : 2em;
+}
+
+}
+
+
+@media screen and (max-width : 320px) {
+
+	.list-photo-detail {
+
+		float : none;
+		width : 100%;
+	}
+
+.ethnic-list .ethnic-list-item {
+
+	float : left;
+	width : 40%;
+}
+
+.list-posts-item {
+
+	float : none;
+	width : 100%;
+}
+
+h1 , h1 span {
+
+	font-weight : bold;
+	margin-bottom : 2em;
+}
+
+}

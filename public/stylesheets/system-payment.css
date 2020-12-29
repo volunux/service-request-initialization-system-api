@@ -1,0 +1,464 @@
+@font-face {
+
+font-family: 'RobotoRegular';
+src : url(../../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+
+font-family: 'RobotoBold';
+src : url(../../fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+
+font-family: 'Libre';
+src : url(../../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf) format('truetype');
+}
+
+* {
+
+	font-family : 'RobotoRegular';
+	font-size : 100%;
+	margin : 0;
+	border : 0;
+	padding : 0;
+	box-sizing : border-box;
+	text-decoration : none;
+	border-collapse : collapse;
+	background-color : transparent;
+}
+
+p , i , li , td , th , span , label , input , textarea , select {
+
+	font-size : 13px;
+}
+
+b {
+
+	font-family : 'RobotoBold';
+}
+
+a {
+
+	text-align : center;
+}
+
+a , b , button {
+
+	font-size : 11px;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+
+	font-family : 'Libre';
+}
+
+h1 {
+
+	font-size : 18px;
+}
+
+h2 {
+
+	font-size : 16px;
+}
+
+h3 {
+
+	font-size : 14px;
+}
+
+#container {
+
+	width : 96%;
+	margin : 0px auto;
+}
+
+#department-payment , #faculty-payment , #general-payment {
+
+	width : 96%;
+	margin : 0px auto;
+	padding : 5px 15px;
+}
+
+#department-payment p , #faculty-payment p , #general-payment p , #entries p {
+
+	line-height : 2.0em;
+}
+
+#logo {
+
+	width : 100%;	
+	margin : 0px auto 10px;
+	min-width : 120px;
+	max-width : 120px;
+}
+
+#logo img {
+
+	width : 120px;
+	height : 120px;
+}
+
+#nav ul {
+
+	list-style-type : none;
+}
+
+#nav ul li {
+
+	display : inline-block;
+	width : 150px;
+	margin-right : 20px;
+	border-radius : 12px 0px 12px 0px;
+	background-color : #290140;
+}
+
+#nav ul li:hover {
+
+	background-color : #210140;	
+}
+
+#nav li a {
+
+	display : inline-block;
+	padding : 10px;
+	width : 100%;
+	color : #fff;
+}
+
+#main {
+
+	background-image : url('../../images/comp.png');
+	background-repeat : no-repeat;
+	background-position : 50% 40%;
+	opacity : 1;
+	padding : 5px;
+}
+
+#main h1 , #main h2 , #main h3 {
+
+	margin : 20px 0px 10px;
+}
+
+.description p {
+
+	margin: 10px 0px;
+	line-height : 2.5em;
+}
+
+#department-payment p , #faculty-payment p , #general-payment p {
+
+	line-height : 2.5em;
+}
+
+#entry-detail-options {
+
+	width : 70%;
+	margin : 5px auto 0px;
+	padding : 0.62929018584197768285284930010346% 2.0366495078945626549762984913519%;
+}
+
+#entry-detail-options a , button.btn-submit {
+
+	display : block;
+	width : 100%;
+	margin : 10px auto 0px;
+	line-height : 2.0em;
+	padding : 0% 2.9340879234504911474798498165083%;
+	background-color : #290140;
+	border : 1.5px solid #ac4bd8;
+	color : #a0a7a0;
+	border-radius : 6px;
+}
+
+#entry-detail-options a:hover {
+
+	color : white;
+}
+
+#dept-payment-form , #faculty-payment-form , #payment-form {
+
+	width : 80%;
+	margin : 0px auto;
+	padding : 5px 10px;
+}
+
+#entry-detail-form h3 {
+
+	text-align : center;
+}
+
+ul.errors , #guidelines ul {
+
+	margin-left : 30px;
+}
+
+ul.errors li , #guidelines ul li {
+
+	line-height : 2.0em;
+}
+
+#dept-payment-form label , #faculty-payment-form label , #payment-form label {
+
+	display : block;
+	margin-bottom : 5px;
+	padding-left : 10px;
+	font-family : 'RobotoBold';
+	font-weight : bold;
+}
+
+#dept-payment-form .form-group , #faculty-payment-form .form-group , #payment-form .form-group {
+
+	margin : 20px 0px;
+}
+
+#dept-payment-form select , #dept-payment-form input , #faculty-payment-form select , #faculty-payment-form input , #payment-form select , #payment-form input {
+
+	width : 100%;
+	border : 2px solid #3d0398;
+	padding : 6px 15px;
+	border-radius : 4px;
+}
+
+#dept-payment-form textarea , #faculty-payment-form textarea , #payment-form textarea {
+
+	height : 120px;
+	resize : none;
+}
+
+#dept-payment-form button:hover , #faculty-payment-form button:hover , #payment-form button:hover {
+
+	color : #fff;
+}
+
+#entries > article > p {
+
+	margin-top : 30px;
+}
+
+#entries table {
+
+	width : 1250px;
+	overflow : auto;
+	margin : 0px auto;
+}
+
+#entries > p {
+
+	margin-top : 30px;
+}
+
+#entries thead th {
+
+	font-family : 'RobotoBold';
+	font-size : 13px;
+	font-weight : bold;
+}
+
+#entries table thead th:first-child {
+
+	width : 15%;
+}
+
+
+.column-amt {
+
+	width : 8%;
+}
+
+.column-dept {
+
+	width : 22%;
+}
+
+.column-name {
+
+	width : 20%;
+}
+
+.column-paid {
+
+	width : 10%;
+}
+
+.column-status {
+
+	width : 8%;
+	margin : 0px auto;
+}
+
+
+#entries td b {
+
+	font-size : 81.25%;
+}
+
+table td , th {
+
+	line-height : 2.0em;
+	text-align : left;
+	padding : 8px 0px;
+}
+
+#entries table td , #entries table th {
+
+	text-align : center;
+}	
+
+#entries table caption {
+
+	text-align : center;
+	margin: 10px 0px;
+	font-size : 13px;
+	font-weight : bold;
+	font-family : 'RobotoBold';
+}
+
+tr:hover {
+
+	background-color : #fbfaf8;
+}
+
+table a.request-view-button {
+
+	border : 1.5px solid #ac4bd8;
+	border-radius : 10px;
+	background-color : #290140;
+	line-height : 2.5em;
+	color : #a0a7a0;
+	width : 65px;
+	margin-right : 10px;
+	display : inline-block;
+	text-align : center;
+}
+
+table a.request-view-button:hover , table a.page-number-button:hover , tfoot td a:hover {
+
+	color : #fff;
+	background-color : #210140;
+}
+
+button.btn-search {
+
+	text-align : center;
+	display : block;
+	font-size : 11px;
+	width : 65%;
+	margin : 10px auto 0px;
+	line-height : 2.0em;
+	padding : 0% 2.9340879234504911474798498165083%;
+	background-color : #290140;
+	color : #a0a7a0;
+	border : 1.5px solid #ac4bd8;
+	border-radius : 6px;
+}
+
+button.btn-search:hover {
+
+	color : #fff;
+	background-color : #210140;
+}
+
+.search-bar input , .search-bar select {
+
+	width : 50%;
+	display : block;
+	padding : 5px 10px;
+	border : 2px solid #3d0398;
+	border-radius : 5px;
+	margin: 10px auto;
+}
+
+.search-bar h4 {
+
+	text-align : center;
+	font-size : 13px;
+}
+
+table a.pagination {
+
+	border : 2px solid #ac4bd8;
+	border-radius : 10px;
+	background-color : #290140;
+	line-height : 2.0em;
+	color : #a0a7a0;
+	width : 25%;
+	padding : 2px 0px;
+	display : block;
+	margin : 0px auto;
+	text-align : center;
+	font-size : 11px;
+}
+
+tfoot td a , tfoot form button {
+
+	text-align : center;
+	display : block;
+	font-size : 11px;
+	width : 100%;
+	margin : 10px auto 0px;
+	line-height : 2.0em;
+	padding : 0% 2.9340879234504911474798498165083%;
+	background-color : #290140;
+	color : #a0a7a0;
+	border : 1.5px solid #ac4bd8;
+	border-radius : 6px;
+}
+
+.next {
+
+	float : right;
+	width : 21% !important;
+}
+
+.prev {
+
+	float : left;
+}
+
+tfoot {
+
+	margin-top : 20px;
+}
+
+@media screen and (max-width : 480px) {
+
+	#entry-detail-form , #payment-form , #dept-payment-form {
+
+		width : 100%;
+		padding : 5px 0px;
+	}
+
+}
+
+@media screen and (max-width : 900px) {
+
+	#nav ul li {
+
+		display : block;
+		width : 100%;
+		text-align : left;
+		margin-top : 10px;
+	}
+}
+
+@media print {
+
+	#nav {
+
+		display : none;
+	}
+
+	tfoot {
+
+		display : none;
+	}
+
+	footer {
+		
+		display : none;
+	}
+
+}

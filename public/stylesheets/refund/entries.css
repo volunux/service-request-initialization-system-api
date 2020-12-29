@@ -1,0 +1,175 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+
+font-family: 'RobotoRegular';
+src : url(../../fonts/Roboto-Regular.ttf) format('truetype');
+
+}
+
+@font-face {
+
+font-family: 'RobotoLight';
+src : url(../../fonts/Roboto-Light.ttf) format('truetype');
+
+}
+
+@font-face {
+
+font-family: 'RobotoBold';
+src : url(../../fonts/Roboto-Bold.ttf) format('truetype');
+
+}
+
+@font-face {
+
+font-family: 'Libre';
+src : url(../../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf) format('truetype');
+
+}
+
+
+* {
+
+	box-sizing : border-box;
+	margin : 0;
+	padding : 0;
+	border : 0;
+	font-size : 100%;
+	line-height : 2.0em;
+	font-family : 'RobotoRegular';
+	text-decoration : none;
+	border-collapse : collapse;
+}
+
+.container {
+
+	width : 96%;
+	margin : 0px auto;
+	padding : 0.87847730600292825768667642752562%;
+}
+
+li , td , th , dl, dt , dd , p , a , b , small , i , span {
+
+	font-size : 81.25%;
+}
+
+b {
+
+	font-family : 'RobotoBold';
+}
+
+.container .nav ul {
+
+	list-style-type : none;
+} 
+
+.logo {
+
+margin : 0px auto;
+width : 20%;
+}
+
+.logo img {
+
+width : 120px;
+height : 120px;
+}
+
+.nav li {
+
+	display : inline-block;
+	margin-right : 20px;
+	width : 170px;
+}
+
+.nav li a {
+
+	display : inline-block;
+	width : 100%;
+	border : 1px solid #ac4bd8;
+	border-radius : 6px;
+	background-color : #61186d;
+	padding : 2px 0px;
+	color : white;
+	text-align : center;
+	font-size : 11px;
+}
+
+.main {
+
+	margin : 10px 0px 35px;
+}
+
+.footer p {
+
+	text-align : center;
+}
+
+.entries-table table {
+
+	width : 1250px;
+	overflow : auto;
+	margin : 0px auto;
+}
+
+.entries-table thead th {
+
+	font-family : 'RobotoBold';
+	font-size : 81.25%;
+	font-weight : bold;
+}
+
+.entries-table table thead th:first-child {
+
+	width : 18%;
+}
+
+
+
+table colgroup {
+
+	width : 15%;
+}
+
+table td , th {
+
+	line-height : 2.5em;
+	text-align : center;
+	padding : 8px 0px;
+}	
+
+table caption {
+
+	margin: 10px 0px;
+	padding-left : 2%;
+	text-align : left;
+	font-size : 14px;
+	font-weight : bold;
+	font-family : 'RobotoBold';
+}
+
+tr:hover {
+
+	background-color : #fbfaf8;
+}
+
+table a.request-view-button {
+
+	border : 2px solid #ac4bd8;
+	border-radius : 10px;
+	background-color : #61186d;
+	color : #a0a7a0;
+	width : 75%;
+	padding : 2px 0px;
+	display : inline-block;
+	text-align : center;
+	font-size : 11px;
+}
+
+table a.request-view-button:hover {
+
+	color : #fff;
+	background-color : #4e1269;
+	border : 2px solid #ac4bd8;
+}
