@@ -38,7 +38,7 @@ const general2 = require('../controllers/general-two')(opt);
 	
 router.post('/'						,														general2.entryAddSubmit);
 
-router.get('/entries'			, cUser.roleType([...opt.superPrivilege]) , general2.entries(`_id num entrySlug status createdAt`));
+router.get('/entries'			, cUser.roleType([...opt.superPrivilege]) , general2.entries(`_id num entryId status createdAt`));
 
 
 

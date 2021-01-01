@@ -23,7 +23,7 @@ const RequestCredential = require('./request-credential')('RequestCredential' , 
 
 const CourseRegistrationComment = require('../models/conversation/timeline')('Request' , 'Course Registration' , 'request' , true); 
 
-const CourseRegistrationReply = require('../models/conversation/reply')('Request' , 'Course Registration' , 'request' , true);; 
+const CourseRegistrationReply = require('../models/conversation/reply')('Request' , 'Course Registration' , 'request' , true); 
 
 const GeneralRequest = require('../models/general-request')('Request' , 'request');
 
@@ -52,11 +52,17 @@ const RefundStage = require('./stage')('Refund' , 'refund');
 
 const RefundComment = require('../models/conversation/timeline')('Refund' , 'Refund' , 'refund' , true); 
 
-const RefundReply = require('../models/conversation/reply')('Refund' , 'Refund' , 'refund' , true);; 
+const RefundReply = require('../models/conversation/reply')('Refund' , 'Refund' , 'refund' , true); 
 
 const Refund = require('../models/refund');
 
 const Payment = require('../models/payment')('Payment' , 'payments');
+
+const Thesis = require('../models/thesis');
+
+const ThesisComment = require('../models/conversation/timeline')('Thesis' , 'Thesis' , 'thesis' , true); 
+
+const ThesisReply = require('../models/conversation/reply')('Thesis' , 'Thesis' , 'thesis' , true); 
 
 module.exports = {
 
@@ -126,6 +132,8 @@ module.exports = {
 
 	'SchoolResultReply' : SchoolResultReply ,
 
-	'Payment' : Payment
+	'Payment' : Payment ,
+
+	'Thesis' : Thesis
 
 }

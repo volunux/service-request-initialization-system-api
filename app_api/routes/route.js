@@ -16,6 +16,8 @@ const refund = require('./refund');
 
 const payment = require('./payment');
 
+const thesis = require('./thesis');
+
 const departmentPayment = require('./department-payment');
 
 const facultyPayment = require('./faculty-payment');
@@ -86,11 +88,13 @@ module.exports = (app) => {
 
 		app.use('/api/refund' 									, refund );
 		
-		app.use('/api/payment' 									,  payment );
+		app.use('/api/payment' 									, payment );
 
-		app.use('/api/department-payment' 			,  departmentPayment );
+		app.use('/api/thesis' 									, thesis );
 
-		app.use('/api/faculty-payment' 					,  facultyPayment );
+		app.use('/api/department-payment' 			, departmentPayment );
+
+		app.use('/api/faculty-payment' 					, facultyPayment );
 
 		app.use('/api/department' 							, cUser.roleType([...privileges.superPrivilege]) , department );
 

@@ -7,9 +7,9 @@ var uploadSchema = new Schema({
 
 'type' : String , 'maxlength' : 200 , 'required' : true , 'minlength' : 1	} ,
 
-'entrySlug' :  { 'type' : String ,
+'entryId' :  { 'type' : String ,
 
-'maxlength' : [150 , `Entry slug cannot be greater than 150 characters in length.`]	} ,
+'maxlength' : [150 , `Entry Id cannot be greater than 150 characters in length.`]	} ,
 
 'status' : {
 

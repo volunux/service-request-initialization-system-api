@@ -3,11 +3,11 @@ const aws = require('aws-sdk');
 module.exports = function postPhotos() {
 
 				return new aws.S3({
-													    'secretAccessKey': 'Yq4z5msvKVRX4mGzCHqsqpd5Zl5DFob7b/eJ0NMw' ,
+													    'secretAccessKey': process.env.aremiuser_secretkey ,
 													
-													    'accessKeyId': 'AKIAIDBRNJCTTC64MODA' ,
+													    'accessKeyId': process.env.aremiuser_accesskey ,
 
-													    'region' : 'eu-central-1' ,
+													    'region' : process.env.photos_region ,
 
 															'httpOptions' : {
 

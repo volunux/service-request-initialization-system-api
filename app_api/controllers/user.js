@@ -301,7 +301,7 @@ module.exports = (opt) => {
 
 											if (keys && keys.length > 0) {
 
-								Upload.updateMany( {'Key' :  {'$in' : keys } } , { '$set' : {	'entrySlug' : entryResult._id } } , {'upsert' : true} ).then((entryUpdate) => {
+								Upload.updateMany( {'Key' :  {'$in' : keys } } , { '$set' : {	'entryId' : entryResult._id } } , {'upsert' : true} ).then((entryUpdate) => {
 
 																														return response.response(res , 200 , entryResult);		});		}
 																										
